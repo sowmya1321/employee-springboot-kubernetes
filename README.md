@@ -83,7 +83,7 @@ minikube service employee-service --url
 ## Test the Employee API
 curl $(minikube service employee-service --url)/employees
 
-# Kubernetes Architecture
+Kubernetes Architecture
 
 User
   |
