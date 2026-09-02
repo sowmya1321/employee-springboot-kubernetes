@@ -27,13 +27,20 @@ A simple Spring Boot REST API for managing employee information and deploying th
 ```bash
 ./mvnw clean package
 
-Run the Jar
+### Run the Jar
+
+```bash
 java -jar target/employee-app-0.0.1-SNAPSHOT.jar
-## The application runs on
+
+### The application runs on
 http://localhost:8080
 
-## Test the API
+### Test the API
+
+```bash
 curl http://localhost:8080/
+
+```bash
 curl http://localhost:8080/employees
 
 ### Build docker image
