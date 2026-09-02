@@ -83,8 +83,7 @@ minikube service employee-service --url
 ## Test the Employee API
 curl $(minikube service employee-service --url)/employees
 
-
-### Kubernetes Architecture
+# Kubernetes Architecture
 
 User
   |
@@ -105,7 +104,7 @@ Spring Boot Application
 Employee REST API
 
  
-### Kubernetes Features Demonostrated
+## Kubernetes Features Demonostrated
 Declarative Kubernetes configuration using YAML
 Kubernetes Deployment
 Kubernetes Service
@@ -116,7 +115,7 @@ Docker image deployment
 Minikube local Kubernetes environment
 
 
-###Project Structure
+Project Structure
 
 employee-app/
 ├── src/
